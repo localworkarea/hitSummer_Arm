@@ -13,6 +13,10 @@
   text-shadow: stroke($stroke, $color);
 }
 
+[class*="__container"] {
+  padding-left: toRem(15);
+  padding-right: toRem(15);
+}
 
 .section-bg {
   position: absolute;
